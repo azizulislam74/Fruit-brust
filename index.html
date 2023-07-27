@@ -26,9 +26,10 @@
             <div class="navbar bg-[#F85559] text-primary-content rounded-full px-5 text-[#FFF]">
                 <div class="navbar-start">
                     <ul class="hidden md:flex  lg:flex ">
-                        <li class="px-12"><a class="font-color text-base font-medium ">Homepage</a></li>
+                        <li class="px-12"><a class="font-color text-base font-medium ">Home</a></li>
                         <li class="pr-12"><a class="font-color text-base font-medium ">About Us</a></li >
                         <li class="pr-12"><a class="font-color text-base font-medium ">Shop</a></li>
+                        <li class="pr-12"><a class="font-color text-base font-medium ">All Fruits</a></li>
                       </ul>
                   
                 </div>
@@ -48,7 +49,7 @@
                 </div>
                 <div class="navbar-end relative">
                   <label for="" class="hidden md:hidden lg:flex items-center">
-                    <input type="text" placeholder="Search here" class="input input-bordered" />
+                    <input type="text" placeholder="Search here" class="input rounded-full" />
                     <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-5" width="24" height="24" viewBox="0 0 24 24" fill="none">
                       <path d="M20.9998 21L15.8028 15.803M15.8028 15.803C17.2094 14.3965 17.9996 12.4887 17.9996 10.4995C17.9996 8.51035 17.2094 6.60262 15.8028 5.19605C14.3962 3.78947 12.4885 2.99927 10.4993 2.99927C8.51011 2.99927 6.60238 3.78947 5.19581 5.19605C3.78923 6.60262 2.99902 8.51035 2.99902 10.4995C2.99902 12.4887 3.78923 14.3965 5.19581 15.803C6.60238 17.2096 8.51011 17.9998 10.4993 17.9998C12.4885 17.9998 14.3962 17.2096 15.8028 15.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
@@ -232,11 +233,19 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
                             <!-- Open the modal using ID.showModal() method -->
-              <button  onclick="my_modal_4.showModal()" class="text-lg font-bold text-[#F85559]">Details</button>
-              <dialog id="my_modal_4" class="modal">
+              <button  onclick="my_modal_1.showModal()" class="text-lg font-bold text-[#F85559]">Details</button>
+              <dialog id="my_modal_1" class="modal">
                 <form method="dialog" class="modal-box flex items-center flex-col">
-                  <h3 class="font-bold text-lg">Hello!</h3>
+                  <h3 class="font-bold text-lg"></h3>
                   <img src="./images/fruit6.png" alt="">
+                  <p class="text-base font-medium">Apple</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
                   <div class="modal-action">
                     <!-- if there is a button in form, it will close the modal -->
                     <button class="btn">Close</button>
@@ -264,11 +273,18 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
                             <!-- Open the modal using ID.showModal() method -->
-              <button  onclick="my_modal_1.showModal()" class="text-lg font-bold text-[#F85559]">Details</button>
-              <dialog id="my_modal_1" class="modal">
+              <button  onclick="my_modal_2.showModal()" class="text-lg font-bold text-[#F85559]">Details</button>
+              <dialog id="my_modal_2" class="modal">
                 <form method="dialog" class="modal-box flex items-center flex-col">
-                  <h3 class="font-bold text-lg">Hello!</h3>
                   <img src="./images/fruit7.png" alt="">
+                  <p class="text-base font-medium">Orange</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
                   <div class="modal-action">
                     <!-- if there is a button in form, it will close the modal -->
                     <button class="btn">Close</button>
@@ -296,11 +312,18 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
                             <!-- Open the modal using ID.showModal() method -->
-              <button  onclick="my_modal_2.showModal()" class="text-lg font-bold text-[#F85559]">Details</button>
-              <dialog id="my_modal_2" class="modal">
+              <button  onclick="my_modal_3.showModal()" class="text-lg font-bold text-[#F85559]">Details</button>
+              <dialog id="my_modal_3" class="modal">
                 <form method="dialog" class="modal-box flex items-center flex-col">
-                  <h3 class="font-bold text-lg">Hello!</h3>
                   <img src="./images/fruit8.png" alt="">
+                  <p class="text-base font-medium">Red Dragon</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
                   <div class="modal-action">
                     <!-- if there is a button in form, it will close the modal -->
                     <button class="btn">Close</button>
@@ -328,11 +351,18 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
                             <!-- Open the modal using ID.showModal() method -->
-              <button  onclick="my_modal_3.showModal()" class="text-lg font-bold text-[#F85559]">Details</button>
-              <dialog id="my_modal_3" class="modal">
+              <button  onclick="my_modal_4.showModal()" class="text-lg font-bold text-[#F85559]">Details</button>
+              <dialog id="my_modal_4" class="modal">
                 <form method="dialog" class="modal-box flex items-center flex-col">
-                  <h3 class="font-bold text-lg">Hello!</h3>
                   <img src="./images/fruit9.png" alt="">
+                  <p class="text-base font-medium">Banana</p>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
                   <div class="modal-action">
                     <!-- if there is a button in form, it will close the modal -->
                     <button class="btn">Close</button>
